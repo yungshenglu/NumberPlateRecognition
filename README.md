@@ -57,6 +57,7 @@ This repository is some pactice of data parsing by using Python. Notice that thi
 
 * [TensorFlow](https://www.tensorflow.org/)
 * [opencv-python 3.4.1.15](https://pypi.org/project/opencv-python/)
+* [THE MNIST DATABASE](http://yann.lecun.com/exdb/mnist/)
 
 ---
 ## Author

@@ -2,7 +2,7 @@
 
 This repository is some pactice of data parsing by using Python. Notice that this repository is lab in "Workshop on AI & Big Data Analytics 2018".
 
-> * [Number plate recognition with Tensorflow](http://matthewearl.github.io/2016/05/06/cnn-anpr/)
+> [Number plate recognition with Tensorflow](http://matthewearl.github.io/2016/05/06/cnn-anpr/)
 
 ---
 ## Prerequisite

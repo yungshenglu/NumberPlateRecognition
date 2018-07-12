@@ -8,11 +8,11 @@ This repository is some pactice of data parsing by using Python. Notice that thi
 ## Prerequisite
 
 * Before executing, you need to install the following packages
-    * Install **OpenCV** packages on Python
+    * Install **OpenCV** using `pip`
         ```bash
         $ [sudo] pip install opencv-python
         ```
-    * Install **TensorFlow** packages on Python
+    * Install **TensorFlow** using `pip`
         ```bash
         $ [sudo] pip install -U tensorflow
         ``` 

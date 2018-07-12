@@ -36,8 +36,9 @@ This repository is some pactice of data parsing by using Python. Notice that thi
     $ python detect.py t1.jpg weights.npz
     $ python detect.py t2.jpg weights.npz
     ```
-* Open the folder `output/` to see the result of recognition. Notice that the filename of the result will be same as the input file.
+* Open the folder `./output/` to see the result of recognition. Notice that the filename of the result will same as the input.
     ```bash
+    # List the recognition result
     $ cd ./output && ls
     t1.jpg  t2.jpg
     ```

@@ -1,0 +1,8 @@
+# Config file
+.vscode
+
+# Python
+*.pyc
+
+# Large file
+weights.npz

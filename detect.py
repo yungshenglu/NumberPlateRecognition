@@ -186,7 +186,7 @@ if __name__ == "__main__":
         pt2 = tuple(reversed(list(map(int, pt2))))
 
         code = letter_probs_to_code(letter_probs)
-        color = (0.0, 255.0, 0.0)
+        color = (255.0, 255.0, 0.0)
 
         cv2.rectangle(im, pt1, pt2, color)
         cv2.putText(im, code, pt1, cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 0), thickness = 5)

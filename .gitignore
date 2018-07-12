@@ -3,6 +3,3 @@
 
 # Python
 *.pyc
-
-# Large file
-weights.npz

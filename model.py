@@ -78,21 +78,21 @@ def convolutional_layers():
     b_conv1 = bias_variable([48])
     x_expanded = tf.expand_dims(x, 3)
     h_conv1 = tf.nn.relu(conv2d(x_expanded, W_conv1) + b_conv1)
-    h_pool1 = max_pool(h_conv1, ksize=(2, 2), stride=(2, 2))
+    h_pool1 = max_pool(h_conv1, ksize = (2, 2), stride = (2, 2))
 
     # Second layer
     W_conv2 = weight_variable([5, 5, 48, 64])
     b_conv2 = bias_variable([64])
 
     h_conv2 = tf.nn.relu(conv2d(h_pool1, W_conv2) + b_conv2)
-    h_pool2 = max_pool(h_conv2, ksize=(2, 1), stride=(2, 1))
+    h_pool2 = max_pool(h_conv2, ksize = (2, 1), stride = (2, 1))
 
     # Third layer
     W_conv3 = weight_variable([5, 5, 64, 128])
     b_conv3 = bias_variable([128])
 
     h_conv3 = tf.nn.relu(conv2d(h_pool2, W_conv3) + b_conv3)
-    h_pool3 = max_pool(h_conv3, ksize=(2, 2), stride=(2, 2))
+    h_pool3 = max_pool(h_conv3, ksize = (2, 2), stride = (2, 2))
 
     return x, h_pool3, [W_conv1, b_conv1, W_conv2, b_conv2, W_conv3, b_conv3]
 

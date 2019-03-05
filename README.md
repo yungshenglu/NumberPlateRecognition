@@ -1,8 +1,26 @@
-# Number Plate Recognition
+# Number Plate Recognition with TensorFlow
 
-This repository is some pactice of data parsing by using Python. Notice that this repository is lab in "Workshop on AI & Big Data Analytics 2018".
+This repository is a lab of "Workshop on AI & Big Data Analytics 2018".
 
-> [Number plate recognition with Tensorflow](http://matthewearl.github.io/2016/05/06/cnn-anpr/)
+> More information about [number plate recognition with Tensorflow](http://matthewearl.github.io/2016/05/06/cnn-anpr/)
+
+---
+## Abstract
+
+This repository is going to implement a simple number plate recognition using CNN model with TensorFlow. Please notice that this program can **only** recognize the pattern of the number plate as follow:
+![](https://i.imgur.com/IQdsTrX.jpg)
+
+---
+## File Structure
+
+```bash
+NumberPlate_Recognition     # This is ./ in this repository
+|--- input/                 # Input image of number plate
+|--- output/                # Output image of number plate's recognition
+|--- common.py
+|--- detect.py
+|--- model.py
+```
 
 ---
 ## Prerequisite
@@ -30,7 +48,7 @@ This repository is some pactice of data parsing by using Python. Notice that thi
 ## Execution
 
 * Put the image of number plate in folder `input/`.
-* Execute
+* Execution
     ```bash
     # Execute number plate recognition
     $ python detect.py t1.jpg weights.npz
@@ -44,15 +62,6 @@ This repository is some pactice of data parsing by using Python. Notice that thi
     ```
 
 ---
-## Framework
-
-* `detect.py`
-* `model.py`
-* `common.py`
-* `input/` - Input image of number plate
-* `output/` - Output image of number plate's recognition
-
----
 ## References
 
 * [TensorFlow](https://www.tensorflow.org/)
@@ -63,3 +72,8 @@ This repository is some pactice of data parsing by using Python. Notice that thi
 ## Author
 
 * [David Lu](https://github.com/yungshenglu)
+
+---
+## License
+
+[GNU GENERAL PUBLIC LICENSE Version 3](LICENSE)

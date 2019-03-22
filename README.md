@@ -1,14 +1,10 @@
 # Number Plate Recognition with TensorFlow
 
-This repository is a lab of "Workshop on AI & Big Data Analytics 2018".
+This repository is going to implement a simple number plate recognition using CNN model with TensorFlow. Please notice that this program can **only** recognize the pattern of the number plate as follow:
+
+![](https://i.imgur.com/IQdsTrX.jpg)
 
 > More information about [number plate recognition with Tensorflow](http://matthewearl.github.io/2016/05/06/cnn-anpr/)
-
----
-## Abstract
-
-This repository is going to implement a simple number plate recognition using CNN model with TensorFlow. Please notice that this program can **only** recognize the pattern of the number plate as follow:
-![](https://i.imgur.com/IQdsTrX.jpg)
 
 ---
 ## File Structure
@@ -47,17 +43,17 @@ NumberPlate_Recognition     # This is ./ in this repository
 ---
 ## Execution
 
-* Put the image of number plate in folder `input/`.
+* Put the image of number plate in the folder `./input/`.
 * Execution
     ```bash
-    # Execute number plate recognition
+    # Make sure your current directory is "./src/"
     $ python detect.py t1.jpg weights.npz
     $ python detect.py t2.jpg weights.npz
     ```
-* Open the folder `./output/` to see the result of recognition. Notice that the filename of the result will same as the input.
+* Open the folder `./out/` to see the result of recognition. Notice that the filename of the result will same as the input.
     ```bash
     # List the recognition result
-    $ cd ./output && ls
+    $ cd ../out && ls
     t1.jpg  t2.jpg
     ```
 

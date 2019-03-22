@@ -171,7 +171,7 @@ def letter_probs_to_code(letter_probs):
 
 # Main function
 if __name__ == "__main__":
-    im = cv2.imread('input/' + sys.argv[1])
+    im = cv2.imread('../input/' + sys.argv[1])
     im_gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY) / 255.
 
     f = numpy.load(sys.argv[2])
@@ -192,4 +192,4 @@ if __name__ == "__main__":
         cv2.putText(im, code, pt1, cv2.FONT_HERSHEY_PLAIN, 1.5, (0, 0, 0), thickness = 5)
         cv2.putText(im, code, pt1, cv2.FONT_HERSHEY_PLAIN, 1.5, (255, 255, 255), thickness = 2)
 
-    cv2.imwrite('output/' + sys.argv[1], im)
+    cv2.imwrite('../out/' + sys.argv[1], im)

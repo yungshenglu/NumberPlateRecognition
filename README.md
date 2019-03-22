@@ -65,7 +65,9 @@ NumberPlate_Recognition     # This is ./ in this repository
 * [THE MNIST DATABASE](http://yann.lecun.com/exdb/mnist/)
 
 ---
-## Author
+## Contributor
+
+> **NOTICE:** You can follow the contributing process [CONTRIBUTING.md](CONTRIBUTING.md) to join me. I am very welcome any issue!
 
 * [David Lu](https://github.com/yungshenglu)
 

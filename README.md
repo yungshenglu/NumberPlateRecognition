@@ -4,7 +4,7 @@ This repository is going to implement a simple number plate recognition using CN
 
 ![](https://i.imgur.com/IQdsTrX.jpg)
 
-> More information about [number plate recognition with Tensorflow](http://matthewearl.github.io/2016/05/06/cnn-anpr/)
+* More information about [number plate recognition with Tensorflow](http://matthewearl.github.io/2016/05/06/cnn-anpr/)
 
 ---
 ## File Structure
@@ -43,17 +43,17 @@ NumberPlate_Recognition     # This is ./ in this repository
 ---
 ## Execution
 
-* Put the image of number plate in the folder `./input/`.
+> **NOTICE:** The image of number plate should be placed in the folder `./input/`
+
 * Execution
     ```bash
-    # Make sure your current directory is "./src/"
+    # Make sure your current directory is "src/"
     $ python detect.py t1.jpg weights.npz
     $ python detect.py t2.jpg weights.npz
     ```
-* Open the folder `./out/` to see the result of recognition. Notice that the filename of the result will same as the input.
+* Open the folder `./out/` to see the result of recognition. The filename of the result will same as the input file.
     ```bash
-    # List the recognition result
-    $ cd ../out && ls
+    $ ls out/
     t1.jpg  t2.jpg
     ```
 
